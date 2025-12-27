@@ -1,0 +1,12 @@
+services:
+  ddns-go:
+    build: .
+    image: ddns-go:latest
+    container_name: ddns-go
+    restart: always
+    ports:
+      - "9876:9876"
+    volumes:
+      - ./config:/root/.ddns_go_config
+    environment:
+      - TZ=Asia/Shanghai

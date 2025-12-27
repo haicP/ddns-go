@@ -28,7 +28,7 @@ var (
 		dynadotEndpoint,
 		dynv6Endpoint,
 		gcoreAPIEndpoint,
-		edgeoneEndPoint,
+		esaEndpoint,
 	}
 
 	Ipcache = [][2]util.IpCache{}
@@ -60,6 +60,10 @@ func RunOnce() {
 		switch dc.DNS.Name {
 		case "alidns":
 			dnsSelected = &Alidns{}
+		case "aliyun":
+			dnsSelected = &Alidns{}
+		case "esa":
+			dnsSelected = &ESA{}
 		case "tencentcloud":
 			dnsSelected = &TencentCloud{}
 		case "trafficroute":

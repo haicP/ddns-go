@@ -256,6 +256,18 @@ const DNS_PROVIDERS = {
       "zh-cn": "<a target='_blank' href='https://my.nsone.net/#/account/settings/keys'>创建 API 密钥</a>",
     }
   },
+  esa: {
+    name: {
+      "en": "Alibaba Cloud ESA",
+      "zh-cn": "阿里云ESA",
+    },
+    idLabel: "AccessKey ID",
+    secretLabel: "AccessKey Secret",
+    helpHtml: {
+      "en": "<a target='_blank' href='https://ram.console.aliyun.com/manage/ak'>Create AccessKey</a>",
+      "zh-cn": "<a target='_blank' href='https://ram.console.aliyun.com/manage/ak'>创建 AccessKey</a>",
+    }
+  },
 };
 
 const SVG_CODE = {

@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	esaEndpoint string = "https://esa.aliyuncs.com/"
+	esaEndpoint string = "https://esa.cn-hangzhou.aliyuncs.com/"
 )
 
 // ESA Alibaba Cloud ESA
